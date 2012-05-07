@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="native/iOS/OKnesset/Plugins/GoogleAnalytics"/>
+	<classpathentry kind="src" path="src/android/www/javascripts"/>
+	<classpathentry kind="src" path="src/ios/www/javascripts"/>
+	<classpathentry excluding="controllers/|views/|debug/|sencha-touch/|models/" kind="src" path="src/web/www/javascripts"/>
+	<classpathentry kind="src" path="src/web/www/javascripts/controllers"/>
+	<classpathentry kind="src" path="src/web/www/javascripts/debug"/>
+	<classpathentry kind="src" path="src/web/www/javascripts/models"/>
+	<classpathentry kind="src" path="src/web/www/javascripts/sencha-touch"/>
+	<classpathentry kind="src" path="src/web/www/javascripts/views"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
