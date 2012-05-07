@@ -2,7 +2,7 @@
  * The OKnesset namespace.
  */
 Ext.namespace('OKnesset');
-
+  
 OKnesset.GAID = "Demo-ID-replace-with-real-id";
 OKnesset.appVersion = "1.0.0";
 
@@ -22,7 +22,7 @@ Ext.regApplication({
 		this.mainLaunch();
 	},
 	mainLaunch : function() {
-		// For iOS and Android, we must wait until the devicereay event
+		// For iOS and Android, we must wait until the device ready event
 		// is fired.
 		if (isPhoneGap() && (!device || !this.launched)) {
 			return;
@@ -45,6 +45,11 @@ Ext.regApplication({
         this.viewport.query('#appInfo')[0].setHandler(function(){
         	OKnesset.app.controllers.navigation.dispatchDialog('Info/Index');
         });
+        
+        // set the search button handler
+        this.viewport.query('#searchTool')[0].setHandler(function(){
+        	OKnesset.app.controllers.navigation.dispatchDialog('Search/Index');
+        });        
 
 		// set the back button handler
         this.viewport.query('#backBtn')[0].setHandler(function() {

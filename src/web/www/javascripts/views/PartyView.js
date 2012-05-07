@@ -1,5 +1,5 @@
 /**
- * The Member list panel (בנימין נתניהו, גדעון סער) shows a list of members
+ * The Member list panel (׳‘׳ ׳™׳�׳™׳� ׳ ׳×׳ ׳™׳”׳•, ׳’׳“׳¢׳•׳� ׳¡׳¢׳¨) shows a list of members
  * of the current selected party
  */
 OKnesset.app.views.PartyView = new Ext.extend(Ext.Panel, {
@@ -15,7 +15,7 @@ OKnesset.app.views.PartyView = new Ext.extend(Ext.Panel, {
 		    }
 		});
 
-Ext.reg('PartyView', OKnesset.app.views.PartyView);
+
 
 OKnesset.app.views.PartyView.MemberList = new Ext.extend(Ext.List, {
 	id : 'MemberList',
@@ -23,3 +23,5 @@ OKnesset.app.views.PartyView.MemberList = new Ext.extend(Ext.List, {
 	store : OKnesset.MemberStore,
 	onItemDisclosure : true
 });
+
+Ext.reg('PartyView', OKnesset.app.views.PartyView);

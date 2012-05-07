@@ -1,3 +1,5 @@
+
+
 Ext.regModel('Party', {
     fields: ['name']
 });
@@ -42,3 +44,20 @@ OKnesset.MemberBillsStore = new Ext.data.Store({
     }
 });
 
+/*
+Ext.regModel('Entity', {
+    fields: ['name']
+});
+
+OKnesset.searchStore = new Ext.data.Store({
+    model: 'Entity',
+	sorters: [
+		 	{
+			property: 'members.length',
+			direction: 'ASC'
+			}
+	],
+    data: searchData
+});
+
+*/

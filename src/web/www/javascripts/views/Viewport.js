@@ -19,6 +19,12 @@ OKnesset.app.views.Viewport = new Ext.extend(Ext.Panel, {
             iconMask: true,
             iconCls: 'mail',
         }, {
+            // The search icon at the top left of the application toolbar
+            ui: 'plain',
+            id: 'searchTool',
+            iconMask: true,
+            iconCls: 'search',
+        }, {
             xtype: 'spacer'
         }, {
             id: 'backBtn',

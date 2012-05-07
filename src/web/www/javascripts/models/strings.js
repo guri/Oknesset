@@ -5,6 +5,7 @@ OKnesset.strings = {
 	partiesTitle	 		:'מפלגות',
 	openBillText			: 'לפתוח בדפדפן?',
 	dialogOKCancel	 		: 'ביטול,אישור',
+	doSearch				: 'חפש!',
 	downloadDataText	 	: 'נפח הנתונים הוא כ 2 מגה.',
 	downloadDataTitle		: 'לעדכן נתונים מהאינטרנט?',
 	errorOpenBill 			: 'לא ניתן לפתוח את הצעת החוק בדפדפן',
@@ -27,7 +28,9 @@ OKnesset.strings = {
 	emailMember				: 'משוב למסך ח"כ {0}',
 	feedbackEmailAddress	: 'oknesset.mobile@gmail.com',
 	errorAndroidEmail		: 'כשלון בשליחת מייל',
-	disclaimerDialogBody	: disclaimerText
+	disclaimerDialogBody	: disclaimerText,
+	searchTool				: "כלי חיפוש",
+	search					: "הכנס ביטוי לחיפוש",
 
 };
 
